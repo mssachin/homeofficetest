@@ -83,8 +83,8 @@ public class DirectoryScan {
         }
 
         List<File> filesOfMimeFormat = ds.getFilesBasedOnMimeType("Files", "sheet");
-        for (File pdfFile: filesOfMimeFormat){
-            System.out.println("PDF File Name is "+pdfFile.getName());
+        for (File file: filesOfMimeFormat){
+            System.out.println("PDF File Name is "+file.getName());
         }
 
 
