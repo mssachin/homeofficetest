@@ -1,4 +1,4 @@
-package com.homeoffice.assessment.UnitTests;
+package com.homeoffice.assessment.unittests;
 
 import com.homeoffice.assessment.fileapplication.DirectoryScan;
 import org.junit.Assert;
