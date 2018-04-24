@@ -22,6 +22,9 @@ public class DirectoryScan {
     }
 
     public String getMimeTypeOfAFile(File file){
+        if(file == null){
+            throw new IllegalArgumentException("File Cannot Be Null");
+        }
         String mimeType = null;
         MimeTypeDetector mpd = new MimeTypeDetector();
         try {
@@ -33,14 +36,23 @@ public class DirectoryScan {
     }
 
     public String getFileSize(File file){
+        if(file == null){
+            throw new IllegalArgumentException("File Cannot Be Null");
+        }
         return FileUtils.byteCountToDisplaySize(file.length());
     }
 
     public String getFileExtension(File file){
+        if(file == null){
+            throw new IllegalArgumentException("File Cannot Be Null");
+        }
         return FilenameUtils.getExtension(file.getName());
     }
 
     public String getFileName(File file){
+        if(file == null){
+            throw new IllegalArgumentException("File Cannot Be Null");
+        }
         return file.getName();
     }
 
@@ -58,21 +70,6 @@ public class DirectoryScan {
         }
         return filesOfSupportedMimeType;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public static void main (String[] args) {
 

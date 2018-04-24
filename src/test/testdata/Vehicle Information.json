@@ -1,0 +1,27 @@
+[
+  {
+    "vehicleRegistration": "HF15 LWC",
+    "make": "Audi",
+    "colour": "White"
+  },
+  {
+    "vehicleRegistration": "LN12 VGC",
+    "make": "Audi",
+    "colour": "Blue"
+  },
+  {
+    "vehicleRegistration": "HJ11 LXA",
+    "make": "Audi",
+    "colour": "Red"
+  },
+  {
+    "vehicleRegistration": "RE12 OYU",
+    "make": "Audi",
+    "colour": "Yellow"
+  },
+  {
+    "vehicleRegistration": "VN12 VGK",
+    "make": "Audi",
+    "colour": "Black"
+  }
+]
